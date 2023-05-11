@@ -2,7 +2,7 @@
 <html lang="en">
    <head>
       <meta charset="utf-8">
-      <title>ProLaundry - Responsive HTML5 Template</title>
+      <title>PinBlu :: Pro Laundry</title>
       <meta name="keywords" content="HTML5 Template">
       <meta name="description" content="ProLaundry - Responsive HTML5 Template">
       <meta name="author" content="ProLaundry">
