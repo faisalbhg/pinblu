@@ -1,0 +1,28 @@
+{
+  "name": "pinblu",
+  "version": "1.0.0",
+  "description": "Pink and Bluue",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "Development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "pinblu"
+  },
+  "keywords": [
+    "pinblue"
+  ],
+  "author": "Fasial",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.62.1"
+  }
+}
