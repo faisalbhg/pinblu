@@ -3,11 +3,11 @@
 		<div class="item_left">
 			<div class="item__img">
 				<picture>
-					<source srcset="<?=base_url('assets/images/mainslide01-01-md.webp');?>" media="(max-width: 1024px)" type="image/webp">
-					<source srcset="<?=base_url('assets/images/mainslide01-01-md.jpg');?>" media="(max-width: 1024px)" type="image/jpg">
-					<source srcset="<?=base_url('assets/images/mainslide01-01.webp');?>" type="image/webp">
-					<source srcset="<?=base_url('assets/images/mainslide01-01.jpg');?>" type="image/jpg">
-					<img src="<?=base_url('assets/images/mainslide01-01.jpg');?>" alt="">
+					<source srcset="<?=base_url('assets/images/banner/slide-01-md.webp');?>" media="(max-width: 1024px)" type="image/webp">
+					<source srcset="<?=base_url('assets/images/banner/slide-01-md.jpg');?>" media="(max-width: 1024px)" type="image/jpg">
+					<source srcset="<?=base_url('assets/images/banner/slide-01.webp');?>" type="image/webp">
+					<source srcset="<?=base_url('assets/images/banner/slide-01.jpg');?>" type="image/jpg">
+					<img src="<?=base_url('assets/images/banner/slide-01.jpg');?>" alt="">
 				</picture>
 			</div>
 			<div class="item__content">
@@ -24,11 +24,11 @@
 		<div class="item_right">
 			<div class="item__img">
 				<picture>
-					<source srcset="<?=base_url('assets/images/mainslide01-02-md.webp');?>" media="(max-width: 1024px)" type="image/webp">
-					<source srcset="<?=base_url('assets/images/mainslide01-02-md.jpg');?>" media="(max-width: 1024px)" type="image/jpg">
-					<source srcset="<?=base_url('assets/images/mainslide01-02.webp');?>" type="image/webp">
-					<source srcset="<?=base_url('assets/images/mainslide01-02.jpg');?>" type="image/jpg">
-					<img src="<?=base_url('assets/images/mainslide01-02.jpg');?>" alt="">
+					<source srcset="<?=base_url('assets/images/banner/slide-02-md.webp');?>" media="(max-width: 1024px)" type="image/webp">
+					<source srcset="<?=base_url('assets/images/banner/slide-02-md.jpg');?>" media="(max-width: 1024px)" type="image/jpg">
+					<source srcset="<?=base_url('assets/images/banner/slide-02.webp');?>" type="image/webp">
+					<source srcset="<?=base_url('assets/images/banner/slide-02.jpg');?>" type="image/jpg">
+					<img src="<?=base_url('assets/images/banner/slide-02.jpg');?>" alt="">
 				</picture>
 			</div>
 			<div class="item__content">
@@ -47,11 +47,11 @@
 		<div class="item_left">
 			<div class="item__img">
 				<picture>
-					<source srcset="<?=base_url('assets/images/mainslide02-01-md.webp');?>" media="(max-width: 1024px)" type="image/webp">
-					<source srcset="<?=base_url('assets/images/mainslide02-01-md.jpg');?>" media="(max-width: 1024px)" type="image/jpg">
-					<source srcset="<?=base_url('assets/images/mainslide02-01.webp');?>" type="image/webp">
-					<source srcset="<?=base_url('assets/images/mainslide02-01.jpg');?>" type="image/jpg">
-					<img src="<?=base_url('assets/images/mainslide02-01.jpg');?>" alt="">
+					<source srcset="<?=base_url('assets/images/banner/slide-03-md.webp');?>" media="(max-width: 1024px)" type="image/webp">
+					<source srcset="<?=base_url('assets/images/banner/slide-03-md.jpg');?>" media="(max-width: 1024px)" type="image/jpg">
+					<source srcset="<?=base_url('assets/images/banner/slide-03.webp');?>" type="image/webp">
+					<source srcset="<?=base_url('assets/images/banner/slide-03.jpg');?>" type="image/jpg">
+					<img src="<?=base_url('assets/images/banner/slide-03.jpg');?>" alt="">
 				</picture>
 			</div>
 			<div class="item__content">
@@ -68,11 +68,11 @@
 		<div class="item_right">
 			<div class="item__img">
 				<picture>
-					<source srcset="<?=base_url('assets/images/mainslide02-02-md.webp');?>" media="(max-width: 1024px)" type="image/webp">
-					<source srcset="<?=base_url('assets/images/mainslide02-02-md.jpg');?>" media="(max-width: 1024px)" type="image/jpg">
-					<source srcset="<?=base_url('assets/images/mainslide02-02.webp');?>" type="image/webp">
-					<source srcset="<?=base_url('assets/images/mainslide02-02.jpg');?>" type="image/jpg">
-					<img src="<?=base_url('assets/images/mainslide02-02.jpg');?>" alt="">
+					<source srcset="<?=base_url('assets/images/banner/slide-04-md.webp');?>" media="(max-width: 1024px)" type="image/webp">
+					<source srcset="<?=base_url('assets/images/banner/slide-04-md.jpg');?>" media="(max-width: 1024px)" type="image/jpg">
+					<source srcset="<?=base_url('assets/images/banner/slide-04.webp');?>" type="image/webp">
+					<source srcset="<?=base_url('assets/images/banner/slide-04.jpg');?>" type="image/jpg">
+					<img src="<?=base_url('assets/images/banner/slide-04.jpg');?>" alt="">
 				</picture>
 			</div>
 			<div class="item__content">

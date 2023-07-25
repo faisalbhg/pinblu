@@ -30,6 +30,11 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->get('pricing', 'Pricing::index');
+$routes->get('services', 'Services::index');
+$routes->get('contact-us', 'Contactus::index');
+$routes->get('about-us', 'Aboutus::index');
+$routes->get('blogs', 'Blog::index');
 $routes->get('ajax-content/mainslider-desktop', 'Home::mainslider_desktop');
 $routes->get('ajax-content/include-mobile-layout', 'Home::include_mobile_layout');
 

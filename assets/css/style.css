@@ -6924,7 +6924,8 @@ body.mm-open #js-init-sticky.fixed .tt-holder-wrapper {
 }
 #tt-menu-toggle {
   padding: 5px 0 5px 5px;
-  font-size: 23px;
+  /*font-size: 23px;*/
+  font-size: 40px;
   line-height: 1;
   display: inline-block;
   color: #4170B3;
@@ -6945,7 +6946,7 @@ body.mm-open #js-init-sticky.fixed .tt-holder-wrapper {
 }
 @media (min-width: 1200px) {
   .toggle-wrapper {
-    display: none;
+    /*display: none;*/
   }
 }
 #subtitle-wrapper {
@@ -7824,9 +7825,11 @@ body.mm-open #tt-header {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+
 }
 .main-slider .item .item_left {
   overflow: hidden;
+
 }
 .main-slider .item .item_left .item__content {
   -webkit-transform: translateX(-100%);
@@ -7855,6 +7858,7 @@ body.mm-open #tt-header {
     -webkit-transform 1.4s ease-in-out 0.4s;
   -webkit-transform: translateZ(150px);
   transform: translateZ(150px);
+
 }
 .main-slider .item.slick-active .item_left .item__content,
 .main-slider .item.slick-active .item_right .item__content {
@@ -7885,6 +7889,8 @@ body.mm-open #tt-header {
   color: #fff;
   font-size: 18px;
   line-height: 26px;
+  background: #00000040;
+  
 }
 .main-slider .item__content .content-align {
   display: flex;
@@ -13178,4 +13184,11 @@ html.ie.gecko body.modal-open {
 }
 .f-col-wrapper [class^="col"] {
   margin-top: 38px;
+}
+.fa-whatsapp  {
+  color:#fff;
+  background:
+   linear-gradient(#25d366,#25d366) 14% 84%/16% 16% no-repeat,
+   radial-gradient(#25d366 60%,transparent 0);
+   font-size: 1.4em;
 }

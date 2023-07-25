@@ -2,156 +2,29 @@
 <html lang="en">
    <head>
       <meta charset="utf-8">
-      <title>PinBlu :: Pro Laundry</title>
-      <meta name="keywords" content="HTML5 Template">
-      <meta name="description" content="ProLaundry - Responsive HTML5 Template">
-      <meta name="author" content="ProLaundry">
+      <title>PinBlu :: Laundry</title>
+      <meta name="keywords" content="Pink & Blue Laundry Serice">
+      <meta name="description" content="Pink & Blue">
+      <meta name="author" content="Pink & Blue">
       <link rel="shortcut icon" href="<?=base_url('assets/images/fav-logo.png');?>">
       <meta name="format-detection" content="telephone=no">
       <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,maximum-scale=1">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="<?=base_url('assets/css/style.css?v=0.1');?>">
+      <link rel="stylesheet" href="<?=base_url('assets/css/style.css?v=0.6');?>">
    </head>
    <body>
-      <nav class="panel-menu" id="mobile-menu">
-         <ul></ul>
-         <div class="mm-navbtn-names">
-            <div class="mm-closebtn">Close</div>
-            <div class="mm-backbtn">Back</div>
-         </div>
-      </nav>
-      <header id="tt-header">
-         <!-- holder-top (desktop) -->
-         <div class="holder-top-desktop d-none d-md-block">
-            <div class="row">
-               <div class="col-auto">
-                  <div class="h-info01">
-                     <div class="tt-item">
-                        <address>8494 Signal Hill Road Manassas, VA, 20110</address>
-                     </div>
-                     <div class="tt-item">Mon-Fri 08:00 AM - 05:00 PM</div>
-                     <div class="tt-item">
-                        <a href="mailto:info@santizex-site.com">info@yourcompany.com</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-auto ml-auto">
-                  <div class="tt-obj">
-                     <div class="h-info02">
-                        <div class="tt-item">
-                           <address><a href="tel:1(800)765-43-21"><span class="icons-483947"></span> 1 (800) 765-43-21</a></address>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="tt-obj">
-                     <ul class="h-social">
-                        <li><a href="https://twitter.com" target="_blank" class="icons-733635"></a></li>
-                        <li><a href="https://www.facebook.com/" target="_blank" class="icons-59439"></a></li>
-                        <li><a href="https://www.facebook.com/" target="_blank" class="icons-2111532"></a></li>
-                        <li><a href="https://www.instagram.com/" target="_blank" class="icons-733614"></a></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- /holder-top (desktop) -->
-         <!-- holder- -->
-         <div id="js-init-sticky">
-            <div class="tt-holder-wrapper">
-               <div class="tt-holder">
-                  <div class="tt-col-left">
-                     <!-- logo --> <a href="<?=base_url();?>" class="tt-logo tt-logo-alignment">
-                        <img src="<?=base_url('assets/images/logo.png');?>" width="100">
-                        <span class="tt-base-color">Pin</span>Blu</a>
-                     <!-- /logo -->
-                  </div>
-                  <div class="tt-col-center tt-col-wide tt-col-objects text-center">
-                     <div class="tt-col__item">
-                        <!-- desktop-nav -->
-                        <nav id="tt-nav">
-                           <ul>
-                              <li><a href="index.html">Home</a></li>
-                              <li>
-                                 <a href="about.html">About Us</a>
-                                 <ul>
-                                    <li>
-                                       <a href="about.html">Sub menu level 01</a>
-                                       <ul>
-                                          <li><a href="about.html">Sub menu level 02</a></li>
-                                          <li><a href="about.html">Sub menu level 02</a></li>
-                                          <li>
-                                             <a href="about.html">Sub menu level 02</a>
-                                             <ul>
-                                                <li><a href="about.html">Sub menu level 03</a></li>
-                                                <li><a href="about.html">Sub menu level 03</a></li>
-                                                <li><a href="about.html">Sub menu level 03</a></li>
-                                             </ul>
-                                          </li>
-                                          <li><a href="about.html">Sub menu level 02</a></li>
-                                       </ul>
-                                    </li>
-                                    <li><a href="about.html">Sub menu level 01</a></li>
-                                 </ul>
-                              </li>
-                              <li>
-                                 <a href="services.html">Services</a>
-                                 <ul>
-                                    <li><a href="services-item.html">Services Item</a></li>
-                                 </ul>
-                              </li>
-                              <li><a href="price.html">Prices</a></li>
-                              <li>
-                                 <a href="blog.html">Blog</a>
-                                 <ul>
-                                    <li><a href="blog-item.html">Blog Item</a></li>
-                                 </ul>
-                              </li>
-                              <li><a href="faq.html">FAQ</a></li>
-                              <li><a href="contact.html">Contacts</a></li>
-                           </ul>
-                        </nav>
-                        <!-- /desktop-nav -->
-                     </div>
-                  </div>
-                  <div class="tt-col-right tt-col-objects">
-                     <div class="tt-col__item d-block d-lg-none">
-                        <div class="h-info02">
-                           <div class="tt-item">
-                              <address><a href="tel:1(800)7654321"><span class="icons-483947"></span> 1 (800) 765-43-21</a></address>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="tt-col__item">
-                        <div class="tt-obj tt-obj-cart js-dropdown-cart">
-                           <a href="#" class="tt-obj__btn">
-                              <i class="icons-711897"></i>
-                              <div class="tt-obj__badge">2</div>
-                           </a>
-                        </div>
-                     </div>
-                     <div class="tt-col__item d-none d-md-block">
-                        <a href="#" class="tt-btn" data-toggle="modal" data-target="#modalMRequestQuote">
-                           <span class="mask">Schedule a Pickup</span>
-                           <div class="button">Schedule a Pickup</div>
-                        </a>
-                     </div>
-                     <div class="tt-col__item toggle-wrapper">
-                        <a href="#" id="tt-menu-toggle" class="icons-1828859"></a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </header>
+      <?=view('common/header');?>
       <main id="tt-pageContent">
+
          <div id="js-mainSlider">
             <div class="mainSlider-preloader">
                <span class="tt-base-color">Pro</span>Laundry
             </div>
             <div class="mainSlider-wrapper"></div>
          </div>
+
          <div class="section-inner lazyload bg-top-left move-top-bottom tt-overflow-hidden" data-bg="<?=base_url('assets/images/wrapper01.png');?>">
             <div class="container container-fluid-xl">
                <div class="box01">
@@ -165,8 +38,8 @@
                   </div>
                   <div class="box01__content">
                      <div class="title-block">
-                        <div class="title-block__label">More than 25 Years of Experience</div>
-                        <h4 class="title-block__title">We are Passionate About Laundry</h4>
+                        <div class="title-block__label">More than Experience</div>
+                        <h4 class="title-block__title">Finest Garment Care</h4>
                      </div>
                      <div class="box01__wrapper-img">
                         <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="lazyload" data-src="<?=base_url('assets/images/img01.jpg');?>" alt="">
@@ -175,8 +48,8 @@
                            years of<br>experience
                         </div>
                      </div>
-                     <p>We are professionals in the laundry and dry cleaning business, which means we always stay up to date on the latest technologies, cleaning methods, and solutions for dealing with stains or delicate fabrics. Plus, we maintain the highest standards of business integrity by following local and national regulations and environmental safety rules. We are passionate about the way you think about laundry!</p>
-                     <div class="row row-custom01 no-gutters">
+                     <p>Whites is a next generation premium dry-cleaning and laundry service, offers the highest standards and the most delicate treatment for your garments.</p>
+                     <div class="row row-custom01 no-gutters d-none">
                         <div class="col-lg-6">
                            <ul class="tt-list01">
                               <li>100% Customer Satisfaction</li>
@@ -784,34 +657,7 @@
                </div>
             </div>
          </div>
-         <div class="section-indent">
-            <div class="container-fluid no-gutters">
-               <div class="box02 box02__img-right">
-                  <div class="box02__img">
-                     <picture>
-                        <source srcset="<?=base_url('assets/images/box02-img02-sm.webp');?>" media="(max-width: 650px)" type="image/webp">
-                        <source srcset="<?=base_url('assets/images/box02-img02-sm.jpg');?>" media="(max-width: 650px)" type="image/png">
-                        <source srcset="<?=base_url('assets/images/box02-img02-md.webp');?>" media="(max-width: 1024px)" type="image/webp">
-                        <source srcset="<?=base_url('assets/images/box02-img02-md.jpg');?>" media="(max-width: 1024px)" type="image/png">
-                        <source srcset="<?=base_url('assets/images/box02-img02.webp');?>" type="image/webp">
-                        <img src="<?=base_url('assets/images/box02-img02.jpg');?>" alt="">
-                     </picture>
-                     <img class="tt-arrow" src="<?=base_url('assets/images/arrow-img-left02.png');?>" alt="">
-                  </div>
-                  <div class="box02__content">
-                     <div class="title-block">
-                        <div class="title-block__label">[ Order even faster ]</div>
-                        <h4 class="title-block__title">Tap. Clean. Deliver.</h4>
-                     </div>
-                     <p>Download the our app and request our laundry service. Your clothes washed, folded and delivered to your doorstep. So go ahead and say yes to more time with the family, more happy hours, and more slapping the snooze button every morning — we've got laundry day covered.</p>
-                     <ul class="tt-list-img tt-list-img__top">
-                        <li><a href="#"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="<?=base_url('assets/images/img05.png');?>" alt=""></a></li>
-                        <li><a href="#"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="<?=base_url('assets/images/img06.png');?>" alt=""></a></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>
+         
          <div class="section-indent">
             <div class="container container-fluid-lg">
                <div class="blog-slider" id="blog-slider">
@@ -960,138 +806,11 @@
                </div>
             </div>
             <div class="container section-inner container-fluid-xl no-gutters">
-               <div class="tt-promo">
-                  <div class="tt-promo__descriptions">
-                     <h6 class="tt-promo__title">Quality Service with<br class="d-none d-lg-block">Free <span class="tt-base-color">Collection &amp; Delivery</span></h6>
-                     <p>It is our goal to offer you the best possible laundry<br>and dry cleaning service available.</p>
-                     <address><a href="tel:1(800)7654321">1 (800) 765-43-21</a></address>
-                  </div>
-                  <div class="tt-promo__img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAmkAAAFiAQMAAACXkN3PAAAABlBMVEUAAADq6urlXPy5AAAAAnRSTlMAAQGU/a4AAAA0SURBVHja7cExDQAAAAIgT/snNocbEAAAAAAAAAAAAAAAAAAAAOBJAwAAAAAAAAAAAABwa9XlAAnqWLNnAAAAAElFTkSuQmCC" class="lazyload" data-src="<?=base_url('assets/images/promo-img-01.png');?>" alt=""> <img class="tt-arrow lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="<?=base_url('assets/images/arrow-img-left.png');?>" alt=""></div>
-               </div>
+               
             </div>
          </div>
-         <div id="map" class="lazyload" data-bg="<?=base_url('assets/images/map-index.jpg');?>"><iframe src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="lazyload" data-expand="-220" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.5820008392016!2d-77.45701318432829!3d38.75035326320268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b65b93b943fb07%3A0xc8712e829da92b9e!2sHistoric%20District%2C%208494%20Signal%20Hill%20Rd%2C%20Manassas%2C%20VA%2020110%2C%20USA!5e0!3m2!1sen!2sua!4v1605172763191!5m2!1sen!2sua" allowfullscreen="" aria-hidden="false"></iframe></div>
+         <div id="map" class="lazyload" data-bg=""><iframe src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="lazyload" data-expand="-220" data-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14436.188391714084!2d55.318253!3d25.2353386!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d33958c6ae1%3A0x8532ea53e54bbd07!2sBuhaleeba%20Real%20Estate!5e0!3m2!1sen!2sae!4v1690201475829!5m2!1sen!2sae" allowfullscreen="" aria-hidden="false"></iframe></div>
       </main>
-      <footer id="tt-footer">
-         <div class="footer-wrapper01">
-            <div class="container container-fluid-xl">
-               <div class="row f-col-wrapper">
-                  <div class="col-md-4">
-                     <a href="index.html" class="f-logo"><i class="icons-logo tt-icon"></i><span class="tt-base-color">Pro</span>Laundry</a>
-                     <div class="f-text">We are professionals in the laundry and dry cleaning business, which means we always stay up to date on the latest technologies and cleaning methods.</div>
-                     <ul class="f-social">
-                        <li><a href="https://twitter.com" target="_blank" class="icons-733635"></a></li>
-                        <li><a href="https://www.facebook.com/" target="_blank" class="icons-59439"></a></li>
-                        <li><a href="" target="_blank" class="icons-2111532"></a></li>
-                        <li><a href="https://www.instagram.com/" target="_blank" class="icons-733614"></a></li>
-                     </ul>
-                  </div>
-                  <div class="col-md-4">
-                     <h6 class="f-title">Contacts</h6>
-                     <ul class="f-info">
-                        <li><i class="icons-484169"></i> 8494 Signal Hill Road Manassas, VA, 20110</li>
-                        <li><i class="icons-59252"></i> Mon-Fri: 8am - 5pm<br>Sat-Sun: 10am - 5pm</li>
-                        <li><a href="mailto:info@yourlaundrysite.com"><i class="icons-1004017"></i> info@yourlaundrysite.com</a></li>
-                        <li><strong><a href="tel:1(800)765-43-21"><i class="icons-4839471"></i> 1 (800) 765-43-21</a></strong></li>
-                     </ul>
-                  </div>
-                  <div class="col-md-4">
-                     <h6 class="f-title">Newsletter Subscribe</h6>
-                     <form id="subscribeform" method="post" novalidate="novalidate" action="#">
-                        <div class="f-form">
-                           <div class="f-form__label">Sign up and receive our special offers.</div>
-                           <div class="f-form__input"><input type="text" name="email" class="form-control" placeholder="Your e-mail address"></div>
-                           <div class="f-form__btn">
-                              <div class="tt-btn"><span class="mask">Subscribe now</span> <button class="button" type="submit">Subscribe now</button></div>
-                           </div>
-                        </div>
-                        <div class="tt-modal-message">Form sent successfully</div>
-                     </form>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="container container-fluid-xl">
-            <div class="f-holder">
-               <div class="f-copyright">&copy; 2020 <span class="tt-base-color">Pro</span>Laundry. All Rights Reserved.</div>
-               <ul class="f-link">
-                  <li><a href="#">Terms and Conditions</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-               </ul>
-            </div>
-         </div>
-      </footer>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script async src="<?=base_url('assets/js/bundle.js?v=0.7');?>"></script>
-      <!-- modal - Make an Appointment -->
-      <div class="modal fade" id="modalMRequestQuote" tabindex="-1" role="dialog" aria-label="myModalLabel" aria-hidden="true">
-         <div class="modal-dialog modal-md">
-            <div class="modal-content">
-               <div class="modal-body form-default modal-layout-dafault">
-                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="icons-860796"></span></button>
-                  <div class="modal-titleblock">
-                     <div class="modal-title">Schedule a Pickup</div>
-                  </div>
-                  <form class="form-modal" id="jsFormRequestQuote" method="post" novalidate="novalidate" action="#">
-                     <div class="form-group"><input type="text" name="name" class="form-control" id="modalName01" placeholder="Your Name *"></div>
-                     <div class="row">
-                        <div class="col-md-6">
-                           <div class="form-group"><input type="text" name="email" class="form-control" id="modalEmail01" placeholder="Your e-mail address *"></div>
-                        </div>
-                        <div class="col-md-6">
-                           <div class="form-group"><input type="text" name="phone" class="form-control" id="modalPhone01" placeholder="Your phone number"></div>
-                        </div>
-                     </div>
-                     <div class="form-group"><input type="text" name="modalAddress" class="form-control" id="modalAddress" placeholder="Address *"></div>
-                     <div class="form-group">
-                        <div class="custom-select">
-                           <select name="service" class="tt-select">
-                              <option value="Service">Service</option>
-                              <option value="Service 02">Service 02</option>
-                              <option value="Service 03">Service 03</option>
-                              <option value="Service 04">Service 04</option>
-                              <option value="Service 05">Service 05</option>
-                           </select>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="col-lg-6">
-                           <div class="form-group">
-                              <input name="date-pick-up" placeholder="Pick-Up Date" autocomplete="off" data-timepicker="true" class="js_datepicker-1 form-control" type="text">
-                              <div class="form-group__icon icons-747310"></div>
-                           </div>
-                        </div>
-                        <div class="col-lg-6">
-                           <div class="form-group">
-                              <input name="date-delivery" placeholder="Delivery Date" autocomplete="off" data-timepicker="true" class="js_datepicker-2 form-control" type="text">
-                              <div class="form-group__icon icons-747310"></div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="form-group"><textarea name="message" class="form-control" placeholder="Your comment"></textarea></div>
-                     <div class="tt-btn tt-btn__wide"><span class="mask">Order Now</span> <button type="submit" class="button">Order Now</button></div>
-                     <div class="tt-modal-message">Form sent successfully</div>
-                  </form>
-               </div>
-            </div>
-         </div>
-      </div>
-      <a href="#" class="tt-btn tt-back-to-top" id="js-backtotop">
-         <span class="mask">
-            <svg version="1.1" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
-               <g>
-                  <polygon fill="currentColor" points="20.9,17.1 12.5,8.6 4.1,17.1 2.9,15.9 12.5,6.4 22.1,15.9     "></polygon>
-               </g>
-            </svg>
-         </span>
-         <div class="button">
-            <svg version="1.1" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
-               <g>
-                  <polygon fill="currentColor" points="20.9,17.1 12.5,8.6 4.1,17.1 2.9,15.9 12.5,6.4 22.1,15.9    ">
-                  </polygon>
-               </g>
-            </svg>
-         </div>
-      </a>
+      <?=view('common/footer');?>
    </body>
 </html>
